@@ -1,0 +1,1602 @@
+[
+  {
+    "qid": "hp_gen_1",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_2",
+    "difficulty": "medium",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_3",
+    "difficulty": "easy",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_4",
+    "difficulty": "hard",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_5",
+    "difficulty": "medium",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_6",
+    "difficulty": "medium",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_7",
+    "difficulty": "medium",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_8",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_9",
+    "difficulty": "hard",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_10",
+    "difficulty": "easy",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_11",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_12",
+    "difficulty": "medium",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_13",
+    "difficulty": "easy",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_14",
+    "difficulty": "hard",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_15",
+    "difficulty": "easy",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_16",
+    "difficulty": "easy",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_17",
+    "difficulty": "easy",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_18",
+    "difficulty": "easy",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_19",
+    "difficulty": "easy",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_20",
+    "difficulty": "hard",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_21",
+    "difficulty": "easy",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_22",
+    "difficulty": "medium",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_23",
+    "difficulty": "medium",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_24",
+    "difficulty": "hard",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_25",
+    "difficulty": "easy",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_26",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_27",
+    "difficulty": "medium",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_28",
+    "difficulty": "hard",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_29",
+    "difficulty": "medium",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_30",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_31",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_32",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_33",
+    "difficulty": "medium",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_34",
+    "difficulty": "medium",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_35",
+    "difficulty": "hard",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_36",
+    "difficulty": "hard",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_37",
+    "difficulty": "easy",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_38",
+    "difficulty": "hard",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_39",
+    "difficulty": "hard",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_40",
+    "difficulty": "easy",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_41",
+    "difficulty": "hard",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_42",
+    "difficulty": "hard",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_43",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_44",
+    "difficulty": "easy",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_45",
+    "difficulty": "hard",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_46",
+    "difficulty": "medium",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_47",
+    "difficulty": "hard",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_48",
+    "difficulty": "hard",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_49",
+    "difficulty": "hard",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_50",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_51",
+    "difficulty": "hard",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_52",
+    "difficulty": "hard",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_53",
+    "difficulty": "medium",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_54",
+    "difficulty": "hard",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_55",
+    "difficulty": "medium",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_56",
+    "difficulty": "easy",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_57",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_58",
+    "difficulty": "easy",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_59",
+    "difficulty": "easy",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_60",
+    "difficulty": "hard",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_61",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_62",
+    "difficulty": "easy",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_63",
+    "difficulty": "easy",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_64",
+    "difficulty": "medium",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_65",
+    "difficulty": "easy",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_66",
+    "difficulty": "hard",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_67",
+    "difficulty": "easy",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_68",
+    "difficulty": "medium",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_69",
+    "difficulty": "easy",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_70",
+    "difficulty": "medium",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_71",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_72",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_73",
+    "difficulty": "medium",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_74",
+    "difficulty": "medium",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_75",
+    "difficulty": "medium",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_76",
+    "difficulty": "hard",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_77",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_78",
+    "difficulty": "hard",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_79",
+    "difficulty": "medium",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_80",
+    "difficulty": "medium",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_81",
+    "difficulty": "hard",
+    "question": "Who directed the movie based on the novel Jurassic Park?",
+    "gold_answer": "Steven Spielberg",
+    "context": [
+      {
+        "title": "Jurassic Park",
+        "text": "Jurassic Park is a novel by Michael Crichton adapted into a film directed by Steven Spielberg."
+      },
+      {
+        "title": "Steven Spielberg",
+        "text": "Steven Spielberg is a famous American film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_82",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_83",
+    "difficulty": "easy",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_84",
+    "difficulty": "easy",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_85",
+    "difficulty": "hard",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_86",
+    "difficulty": "hard",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_87",
+    "difficulty": "hard",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_88",
+    "difficulty": "easy",
+    "question": "Which scientist developed the theory of relativity and what nationality was he?",
+    "gold_answer": "German",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity and was born in Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_89",
+    "difficulty": "medium",
+    "question": "Which country is the birthplace of the inventor of the telephone?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell invented the telephone and was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_90",
+    "difficulty": "medium",
+    "question": "Which philosopher taught Alexander the Great?",
+    "gold_answer": "Aristotle",
+    "context": [
+      {
+        "title": "Alexander the Great",
+        "text": "Alexander the Great was tutored by Aristotle."
+      },
+      {
+        "title": "Aristotle",
+        "text": "Aristotle was an ancient Greek philosopher."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_91",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_92",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_93",
+    "difficulty": "hard",
+    "question": "Which planet is known as the largest in the solar system discovered by astronomers?",
+    "gold_answer": "Jupiter",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "Jupiter is the largest planet in the Solar System."
+      },
+      {
+        "title": "Jupiter",
+        "text": "Jupiter is a gas giant planet."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_94",
+    "difficulty": "medium",
+    "question": "What language is primarily spoken in the country where the Eiffel Tower is located?",
+    "gold_answer": "French",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris, France."
+      },
+      {
+        "title": "France",
+        "text": "The primary language spoken in France is French."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_95",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_96",
+    "difficulty": "medium",
+    "question": "What is the currency used in the country where Mount Fuji is located?",
+    "gold_answer": "Yen",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is located in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The currency of Japan is the Yen."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_97",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_98",
+    "difficulty": "easy",
+    "question": "Which ocean is the largest on Earth and borders California?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "California",
+        "text": "California is a U.S. state on the west coast bordering the Pacific Ocean."
+      },
+      {
+        "title": "Pacific Ocean",
+        "text": "The Pacific Ocean is the largest ocean on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_99",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Amazon rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon rainforest",
+        "text": "The Amazon rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp_gen_100",
+    "difficulty": "medium",
+    "question": "Which element has the chemical symbol of the gas essential for respiration?",
+    "gold_answer": "Oxygen",
+    "context": [
+      {
+        "title": "Respiration",
+        "text": "Respiration in humans requires oxygen gas."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is a chemical element with symbol O."
+      }
+    ]
+  }
+]

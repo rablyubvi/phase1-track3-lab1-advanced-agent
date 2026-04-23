@@ -3,16 +3,16 @@ import json
 from pathlib import Path
 import typer
 from rich import print
-from src.reflexion_lab.agents import ReActAgent, ReflexionAgent
+from src.reflexion_lab.agents import OllamaAgent, OllamaReActAgent, OllamaReflexionAgent
 from src.reflexion_lab.reporting import build_report, save_report
 from src.reflexion_lab.utils import load_dataset, save_jsonl
 app = typer.Typer(add_completion=False)
 
 @app.command()
-def main(dataset: str = "data/hotpot_mini.json", out_dir: str = "outputs/sample_run", reflexion_attempts: int = 3) -> None:
+def main(dataset: str = "data/hotpotqa_diverse_100.json", out_dir: str = "outputs/sample_run", reflexion_attempts: int = 3) -> None:
     examples = load_dataset(dataset)
-    react = ReActAgent()
-    reflexion = ReflexionAgent(max_attempts=reflexion_attempts)
+    react = OllamaReActAgent()
+    reflexion = OllamaReflexionAgent(max_attempts=reflexion_attempts)
     react_records = [react.run(example) for example in examples]
     reflexion_records = [reflexion.run(example) for example in examples]
     all_records = react_records + reflexion_records
