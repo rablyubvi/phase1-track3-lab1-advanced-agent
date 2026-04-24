@@ -1,0 +1,2052 @@
+{
+  "meta": {
+    "dataset": "hotpotqa_diverse_100.json",
+    "mode": "mock",
+    "num_records": 200,
+    "agents": [
+      "react",
+      "reflexion"
+    ]
+  },
+  "summary": {
+    "react": {
+      "count": 100,
+      "em": 0.76,
+      "avg_attempts": 1,
+      "avg_token_estimate": 385,
+      "avg_latency_ms": 48934.62
+    },
+    "reflexion": {
+      "count": 100,
+      "em": 0.94,
+      "avg_attempts": 1.39,
+      "avg_token_estimate": 733.8,
+      "avg_latency_ms": 58534.21
+    },
+    "delta_reflexion_minus_react": {
+      "em_abs": 0.18,
+      "attempts_abs": 0.39,
+      "tokens_abs": 348.8,
+      "latency_abs": 9599.59
+    }
+  },
+  "failure_modes": {
+    "react": {
+      "none": 76,
+      "wrong_final_answer": 24
+    },
+    "reflexion": {
+      "none": 94,
+      "wrong_final_answer": 6
+    }
+  },
+  "examples": [
+    {
+      "qid": "hp_gen_1",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_2",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_3",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "The Yen",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_4",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_5",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_6",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration has the chemical symbol of 'O'.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_7",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean borders California and it is the largest ocean on Earth.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_8",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Alexander Graham Bell was born in Scotland.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_9",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_10",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration is oxygen, with the chemical symbol O.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_11",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_12",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean borders California and it's also the largest ocean on Earth, so FINAL ANSWER is The Pacific Ocean.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_13",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_14",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_15",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_16",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Oxygen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_17",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_18",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Final Answer: Alexander the Great was tutored by Aristotle.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_19",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_20",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_21",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland (which is included within the UK) where Alexander Graham Bell was born as the inventor of the telephone.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_22",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_23",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_24",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_25",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_26",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Insufficient information in the context",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_27",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Final Answer: Jupiter",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_28",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_29",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_30",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland, as it's a country within the United Kingdom and Alexander Graham Bell was born there before he invented the telephone.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_31",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_32",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace of Alexander Graham Bell's inventor was Scotland (part of the United Kingdom).",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_33",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The ocean that borders California is the Pacific Ocean, which is also the largest on Earth.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_34",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration is oxygen (O).",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_35",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_36",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration has the chemical symbol of Oxygen (O).",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_37",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland, which is part of the United Kingdom.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_38",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_39",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_40",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_41",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Mount Fuji belongs to Japan, and hence the country uses the Yen as its currency. Therefore, FINAL ANSWER is 'Yen'.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_42",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Final Answer: Steven Spielberg directed the movie based on the novel Jurassic Park.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_43",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_44",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_45",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg directed the movie based on Jurassic Park.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_46",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Final Answer: Scotland",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_47",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_48",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "The currency used where Mount Fuji is located is Yen.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_49",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_50",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Based on provided context, I cannot give a definitive final answer without additional details about other countries where the Amazon rainforest also extends since it spans multiple nations within South America. The given capital of Brazil is Bras\u00edlia; however, for an accurate response to this question with full confidence and certainty using only the given text excerpts, I would need more information specifically stating that all or part of the Amazon resides in Brazil and its corresponding capital city exclusively being Bras\u00edlia without mentioning other countries.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_51",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_52",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander the Great was tutored by Aristotle.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_53",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_54",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_55",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_56",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: Oxygen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_57",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_58",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_59",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_60",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_61",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_62",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Answer: Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_63",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_64",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Britain (United Kingdom)",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_65",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_66",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_67",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Final Answer: Insufficient information.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_68",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander's tutor was Aristotle, so FINAL ANSWER is \"Aristotle\".",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_69",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_70",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_71",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace country of Alexander Graham Bell, who invented the telephone, is Scotland which is part of the United Kingdom.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_72",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_73",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Final Answer: Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_74",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: Oxygen gas has the chemical symbol 'O'.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_75",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Final Answer: Albert Einstein was German and developed the theory of relativity.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_76",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "The capital of Brazil is Bras\u00edlia.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_77",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_78",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_79",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The element essential for respiration is oxygen, with chemical symbol O.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_80",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_81",
+      "agent_type": "react",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Final Answer: Steven Spielberg directed Jurassic Park.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_82",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_83",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_84",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_85",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander was taught by Aristotle.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_86",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_87",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: The element essential for respiration has the chemical symbol 'O'.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_88",
+      "agent_type": "react",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_89",
+      "agent_type": "react",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace of Alexander Graham Bell, who invented the telephone is Scotland. However, since Scotland is part of the United Kingdom, it can be more specifically stated that his country of origin for nationality purposes was both within the borders of modern-day Great Britain and under British sovereignty at the time of his birth in 1847.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_90",
+      "agent_type": "react",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_91",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "The primary language spoken in the country where the Eiffel Tower is located is French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_92",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_93",
+      "agent_type": "react",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_94",
+      "agent_type": "react",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_95",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_96",
+      "agent_type": "react",
+      "gold_answer": "Yen",
+      "predicted_answer": "Final Answer: The Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_97",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_98",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_99",
+      "agent_type": "react",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_100",
+      "agent_type": "react",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: The chemical symbol of oxygen, which is essential for respiration, is O.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_1",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "The primary language spoken in Paris, France, where an erroneously attributed fictional location of another country's version of a \"Eiffel Tower\" might be imagined to exist is French.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_2",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_3",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_4",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_5",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_6",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: Chemical Symbol of Oxygen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_7",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Insufficient information in the formam",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_8",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_9",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_10",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: Oxygen gas (O) essential for respiration has the chemical symbol of oxygen.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_11",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Alexander Graham Bell was born in Scotland",
+      "is_correct": true,
+      "attempts": 3,
+      "failure_mode": "none",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_12",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_13",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Alexander Graham Bell's birthplace was in Scotland.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_14",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_15",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_16",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: The element essential for respiration has the chemical symbol of oxygen, which is \"O.\"",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_17",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_18",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_19",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein developed the theory of relativity and he was born in Germany (with recognition that typically both Special and General Relativity are associated with him).",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_20",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein developed the theory of relativity, he was German before becoming an American citizen.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_21",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Alexander Graham Bell was born in Edinburgh, Scotland",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_22",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_23",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_24",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_25",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_26",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Final Answer: Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_27",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter is the largest planet in the Solar System.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_28",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter is recognized as the largest planet by volume, which was historically established through telescopic observations and advancements in astronomical measurements. Notably, Galileo's early views of Jupiter\u2019 extraterrestrial moons further contributed to understanding its substantial size within our solar system when compared with other planets.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_29",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_30",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The inventor's birthplace is Scotland, which is part of the United Kingdom.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_31",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "The primary language spoken in the country where the Eiffel Tower is located (France) is French.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_32",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Alexander Graham Bell was born in Scotland.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_33",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "\"The Pacific Ocean.\"",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_34",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration is oxygen, which has the chemical symbol O.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_35",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_36",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration is oxygen, with chemical symbol O.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_37",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Britain",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_38",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Final Answer: Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_39",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_40",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_41",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Final answer: Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_42",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_43",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_44",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_45",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_46",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "\"Born in Scotland.\"",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_47",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Final Answer: Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_48",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_49",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein is a German scientist known for developing the theory of relativity. He was born and raised in Germany, which is part of Europe.",
+      "is_correct": true,
+      "attempts": 3,
+      "failure_mode": "none",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_50",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_51",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_52",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_53",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_54",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander the Great's tutor was Aristotle.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_55",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Final Answer: The Yen is used as currency in Japan, where Mount Fuji is located.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_56",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Oxygen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_57",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace of Alexander Graham Bell is Scotland",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_58",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Final Answer: Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_59",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter.",
+      "is_correct": true,
+      "attempts": 3,
+      "failure_mode": "none",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_60",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Final Answer: Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_61",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_62",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_63",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace country of Alexander Graham Bell is Scotland, which is part of the United Kingdom. Therefore, he was born in what is now considered to be a sovereign state within Europe but originally known as Great Britain when it formed with England and Wales after gaining independence from Ireland (which subsequently became an independent nation).",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_64",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "The birthplace country of Alexander Graham Bell, inventor of the telephone, is Scotland which is part of the United Kingdom.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_65",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein was a German physicist who developed both special and general theories of relativity. He is widely regarded as an iconic figure among Germans due to his foundational work at the University of Zurich/Pasadena before moving away from Nazi influence after World War II, which led some people erroneously to associate him with Germany culturally or ethnically even later in life.",
+      "is_correct": true,
+      "attempts": 3,
+      "failure_mode": "none",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_66",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_67",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Final Answer: Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_68",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander the Great's tutor was Aristotle.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_69",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle taught Alexander the Great.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_70",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_71",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_72",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French is primarily spoken in France where the Eiffel Tower is located.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_73",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_74",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Final Answer: Element with chemical symbol essential for respiration is oxygen (O).",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_75",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_76",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Ludwig van Beethoven composed Symphony No. 5 which premiered on December 22, 1808 (the first time) and November 30, 1813 with the full orchestra.",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_77",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_78",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Albert Einstein, German.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_79",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "**Final Answer: The gas essential for respiration has the chemical symbol of Oxygen (O).**",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_80",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "---",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_81",
+      "agent_type": "reflexion",
+      "gold_answer": "Steven Spielberg",
+      "predicted_answer": "Steven Spielberg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_82",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_83",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_84",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Insufficient information in the context.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_85",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Aristotle",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_86",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "The yen.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_87",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "Oxygen",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_88",
+      "agent_type": "reflexion",
+      "gold_answer": "German",
+      "predicted_answer": "Final Answer: Albert Einstein, German",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_89",
+      "agent_type": "reflexion",
+      "gold_answer": "United Kingdom",
+      "predicted_answer": "Scotland",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 2
+    },
+    {
+      "qid": "hp_gen_90",
+      "agent_type": "reflexion",
+      "gold_answer": "Aristotle",
+      "predicted_answer": "Alexander the Great's tutor was Aristotle.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_91",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_92",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_93",
+      "agent_type": "reflexion",
+      "gold_answer": "Jupiter",
+      "predicted_answer": "Jupiter is indeed the largest planet in the Solar System, discovered by astronomers throughout history with significant contributions from Galileo's early telescope observations. Its status as a gas giant makes it distinct among terrestrial planets due to features like immense atmospheric pressure and complex magnetic fields that remain subjects of scientific research even today.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_94",
+      "agent_type": "reflexion",
+      "gold_answer": "French",
+      "predicted_answer": "French",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_95",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_96",
+      "agent_type": "reflexion",
+      "gold_answer": "Yen",
+      "predicted_answer": "Yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_97",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia, as it is Brazil's capital city where significant portions of the Amazon rainforest are located according to the provided information.",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp_gen_98",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_99",
+      "agent_type": "reflexion",
+      "gold_answer": "Bras\u00edlia",
+      "predicted_answer": "Bras\u00edlia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_gen_100",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxygen",
+      "predicted_answer": "The gas essential for respiration is oxygen, with the chemical symbol O.",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    }
+  ],
+  "extensions": [
+    "structured_evaluator",
+    "reflection_memory",
+    "benchmark_report_json",
+    "mock_mode_for_autograding"
+  ],
+  "discussion": "Reflexion helps when the first attempt stops after the first hop or drifts to a wrong second-hop entity. The tradeoff is higher attempts, token cost, and latency. In a real report, students should explain when the reflection memory was useful, which failure modes remained, and whether evaluator quality limited gains."
+}
